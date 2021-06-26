@@ -1,10 +1,7 @@
 import React from 'react'
-import { useParams } from "react-router-dom";
 import { Card } from 'react-bootstrap';
 
 export default function NotFound() {
-
-    let { id } = useParams();
 
     return (
         <>

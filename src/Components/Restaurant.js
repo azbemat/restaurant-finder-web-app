@@ -19,7 +19,6 @@ export default function Restaurant() {
             setLoading(false);
             if(restaurant.hasOwnProperty("_id")){
                  setRestaurant(restaurant);
-                console.log(restaurant);
             }else{
                  setRestaurant(null);
             }
@@ -28,6 +27,8 @@ export default function Restaurant() {
 
 
     if(!loading){
+
+        if(restaurant != null){
 
         return (
             
@@ -47,10 +48,12 @@ export default function Restaurant() {
                 </MapContainer>
                 
                 <br />
-                
+
                 <CardDeck>
                     {
                         restaurant.grades.map((g)=>(
+
+                            
                             <Card>
                                 <Card.Body>
                                 <Card.Title>Grade: {g.grade}  </Card.Title>
@@ -64,7 +67,24 @@ export default function Restaurant() {
                 </CardDeck>
             </>
         )
+        }else{
+
+            return (
+                <>
+                    <Card>
+                    <Card.Body>
+                        <Card.Title>Still Restaurant...</Card.Title>
+                    </Card.Body>
+                    </Card>
+                </>
+            )
+
+        }
+
+        
     }else{
+
+
         return (
             <>
                 <Card>

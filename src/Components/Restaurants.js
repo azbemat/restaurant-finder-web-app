@@ -69,12 +69,12 @@ export default function Restaurants() {
                                         </thead>
                                         <tbody>
                                             {
-                                                restaurants.map((res) => (
-                                                    <tr key={res._id} onClick={()=>{ history.push(`/restaurant/${res._id}`)}}>
-                                                        <td>{res.name}</td>
-                                                        <td>{res.address.building + " " + res.address.street}</td>
-                                                        <td>{res.borough}</td>
-                                                        <td>{res.cuisine}</td>
+                                                restaurants.map((restaurants) => (
+                                                    <tr key={restaurants._id} onClick={()=>{ history.push(`/restaurant/${restaurants._id}`)}}>
+                                                        <td>{restaurants.name}</td>
+                                                        <td>{restaurants.address.building + " " + restaurants.address.street}</td>
+                                                        <td>{restaurants.borough}</td>
+                                                        <td>{restaurants.cuisine}</td>
                                                     </tr>
                                                 ))
                                             }
