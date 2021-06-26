@@ -1,3 +1,15 @@
+/****************************************************************************
+* WEB422 – Assignment 3
+* I declare that this assignment is my own work in accordance with Seneca Academic Policy.
+* No part of this assignment has been copied manually or electronically from any other source
+* (including web sites) or distributed to other students.
+*
+* Name: Anas Zakariyah Bemat Student ID: 165239187 Date: 2021-06-25
+*
+* Online Link to Restaurant App: https://my-app-ochre-five.vercel.app/
+*
+***********************************************************************************/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
