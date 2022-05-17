@@ -1,3 +1,29 @@
+# Restaurant Finder Web App
+
+•	Design and build a single-page NY Restaurant Finder App with React JS.
+
+•	Enabled the app to fetch the data using the Web API.
+
+•	Created restaurant Web API (https://github.com/azbemat/Web-API) and published it on Heroku.
+
+•	Build a search filter to search for the restaurants by location.
+
+•	Rendered restaurant location in the map using Leaflet library.
+
+•	Used React Bootstrap framework to create clean UI.
+
+•	Used different react hooks like useState, useEffect, useLocation, useHistory, etc.
+
+•	Implemented pagination functionality.
+
+•	Utilized popular libraries like Lodash, Moment.js, Leaflet, jQuery & Bootstrap.
+
+•	Publish web app to Vercel.
+
+
+-----
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
